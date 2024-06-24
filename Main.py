@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 import pandas as pd
-@st.cache_data
+# @st.cache_data
 def app():
     st.title('Show All')
     if 'df_dict' not in st.session_state:

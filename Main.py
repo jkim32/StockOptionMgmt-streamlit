@@ -1,6 +1,8 @@
 import os
 import streamlit as st
 import pandas as pd
+
+st.set_page_config(page_title='Stock Option Management', page_icon='💸')
 # @st.cache_data
 def app():
     st.title('Show All')
